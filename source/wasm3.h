@@ -185,6 +185,12 @@ d_m3ErrorConst  (trapAbort,                     "[trap] program called abort")
 d_m3ErrorConst  (trapUnreachable,               "[trap] unreachable executed")
 d_m3ErrorConst  (trapStackOverflow,             "[trap] stack overflow")
 
+// hogd-specific
+d_m3ErrorConst  (outOfGasError,                 "[hogd] out of gas")
+d_m3ErrorConst  (unrecoverableSystemError,      "[hogd] unrecoverable system error")
+d_m3ErrorConst  (validationFailure,             "[hogd] validation failure")
+d_m3ErrorConst  (hogdExit,                      "[hogd] Exit (or Return) called")
+
 
 //-------------------------------------------------------------------------------------------------------------------------------
 //  configuration, can be found in m3_config.h, m3_config_platforms.h, m3_core.h)
