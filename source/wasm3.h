@@ -189,7 +189,8 @@ d_m3ErrorConst  (trapStackOverflow,             "[trap] stack overflow")
 d_m3ErrorConst  (outOfGasError,                 "[hogd] out of gas")
 d_m3ErrorConst  (unrecoverableSystemError,      "[hogd] unrecoverable system error")
 d_m3ErrorConst  (validationFailure,             "[hogd] validation failure")
-d_m3ErrorConst  (hogdExit,                      "[hogd] Exit (or Return) called")
+d_m3ErrorConst  (hogdExit,                      "[hogd] Exit called")
+d_m3ErrorConst  (hogdReturn,                    "[hogd] Return called")
 
 
 //-------------------------------------------------------------------------------------------------------------------------------
