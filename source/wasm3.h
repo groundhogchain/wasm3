@@ -191,6 +191,7 @@ d_m3ErrorConst  (unrecoverableSystemError,      "[hogd] unrecoverable system err
 d_m3ErrorConst  (validationFailure,             "[hogd] validation failure")
 d_m3ErrorConst  (hogdExit,                      "[hogd] Exit called")
 d_m3ErrorConst  (hogdReturn,                    "[hogd] Return called")
+d_m3ErrorConst  (abortTransaction,              "[hogd] Abort transaction called")
 
 
 //-------------------------------------------------------------------------------------------------------------------------------
